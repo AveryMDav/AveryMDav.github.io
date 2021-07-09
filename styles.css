@@ -1,0 +1,73 @@
+body{
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr 3fr 1fr;
+}
+.background {
+  position: fixed;
+  background-image: url('backgroundPic.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -100;
+  opacity: 0.7;
+}
+
+#header1 {
+  font-size: 3em;
+  text-align: center;
+  grid-column: span 2;
+}
+
+.icons {
+  width: 584px;
+  height: 115px;
+  mix-blend-mode: soft-light;
+}
+
+#about-me{    
+  font-family: 'Arial';
+  font-size: 1.2em;
+  line-height: .8em;
+  position: relative;
+  left: 100px;
+}
+
+.contact {
+  font-family: 'Arial';
+  font-size: 1em;
+  text-shadow: 1.5px 1.5px rgb(100 100 100 / 50%);
+  line-height: .8em;
+  position: relative;
+  left: 100px;
+}
+
+.icons {
+  position: relative;
+  float: inline-end;
+}
+
+i{
+  font-size: 5.2em;
+}
+
+figure {
+  float: left;
+}
+
+#project {
+  font-size: 3em;
+  position: relative;
+  left: 15%;
+}
+
+a {
+  font-size: 1.5em;
+  color: darkblue;
+}
