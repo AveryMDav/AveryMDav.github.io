@@ -3,9 +3,9 @@
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  border: 1px solid black;
   background-color: lightgray;
   opacity: 80%;
+  padding: 10px;
 }
 
 .background {
@@ -28,33 +28,8 @@
   text-align: center;
 }
 
-.icons {
-  width: 584px;
-  height: 115px;
-  mix-blend-mode: soft-light;
-}
-
-.contact {
-  font-family: 'Arial';
-  font-size: 1em;
-  text-shadow: 1.5px 1.5px rgb(100 100 100 / 50%);
-  line-height: .8em;
-  position: relative;
-  left: 100px;
-}
-
 i{
   font-size: 5.2em;
-}
-
-figure {
-  float: left;
-}
-
-#project {
-  font-size: 3em;
-  position: relative;
-  left: 15%;
 }
 
 a {
