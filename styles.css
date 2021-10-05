@@ -2,6 +2,10 @@ body {
   background-color: azure;
 }
 
+.row {
+  margin-bottom: 40px;
+}
+
 .container {
   max-width: 1000px;
   margin: auto;
@@ -29,6 +33,11 @@ body {
 
 .header1 {
   font-size: 3em;
+  text-align: center;
+}
+
+.header2 {
+  font-size: 2em;
   text-align: center;
 }
 
